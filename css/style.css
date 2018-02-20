@@ -419,27 +419,18 @@ nav {
 ------------------ Agenda ------------------------
 -------------------------------------------------- */
 
-#day-1 {
-  max-width: 800px;
-}
-
-#day-2 {
-  max-width: 600px;
-}
-
-#day-1 .time  {
+.time {
   width: 15%;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
-#day-2 .time  {
-  width: 15%;
-  padding-right: 30px;
-  text-align: right;
+.location{
+  white-space: nowrap;
+  width: 25%;
+  text-align: left;
+  padding-right: 10px;
 }
-
-
 .desc {
   width: 85%;
 }
@@ -514,7 +505,8 @@ tr {
 .participant img {
   border-radius: 50%;
   height: 110px;
-  margin-right: 10px;
+  width:110px;
+  margin-right: 10px auto 10px auto;
 }
 
 .participant .info {
@@ -532,7 +524,9 @@ tr {
   font-weight: 600;
 }
 
-
+ .tour ul {
+  margin-bottom: 0rem !important;
+}
 /* --------------------------------
 ------------ FOOTER --------------
 ----------------------------------- */
@@ -726,6 +720,12 @@ tr {
 }
 
 
+/* --------------------------------
+------------ EVENT CONTENT --------------
+----------------------------------- */
+.eventContent{
+  text-align: left;
+}
 
 /*@font-face {
 	font-family: 'icomoon';
