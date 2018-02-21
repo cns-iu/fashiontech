@@ -489,19 +489,29 @@ tr {
 /* -----------------------------------------------
 ------------------ Participant ---------------------
 -------------------------------------------------- */
-
+.participantTable{
+  display: table;
+}
+.participantRow{
+  display: table-row;
+}
 .participant {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
+  display: table-cell;
+
   padding: 12px 0px;
 }
 
 .participant p {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+  width:250px;
+  overflow-wrap: normal;
 }
 
+.participant h4{
+  width:100px;
+  overflow-wrap: normal;
+}
 .participant img {
   border-radius: 50%;
   height: 110px;
