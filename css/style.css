@@ -427,8 +427,7 @@ nav {
 
 .location{
   white-space: nowrap;
-  width: 155px;
-  overflow-wrap: normal;
+  width: 25%;
   text-align: left;
   padding-right: 10px;
 }
