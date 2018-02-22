@@ -426,10 +426,10 @@ nav {
 }
 
 .location{
-  white-space: nowrap;
-  width: 25%;
-  text-align: left;
-  padding-right: 10px;
+  width: 150px;
+  overflow-wrap: normal;
+  float: left;
+  padding: 5px;
 }
 .desc {
   width: 85%;
@@ -505,7 +505,7 @@ tr {
 .participant p {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-  width:250px;
+  width:225px;
   overflow-wrap: normal;
 }
 
