@@ -227,10 +227,10 @@ display: block;
 
 .header {
   background: url("../images/banner.jpg"), url("../images/pattern.jpg"), url("../images/pattern.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center, left, right;
-  min-height: 300px;
+  min-height: 400px;
   z-index: -2;
 }
 
