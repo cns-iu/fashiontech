@@ -120,7 +120,9 @@ h4 {
   width: 100% !important;
 }
 
-.navbar-brand a {
+.brand {
+  padding-left: 25px;
+  width:200px;
   color: #ffffff !important;
 }
 
@@ -153,6 +155,8 @@ h4 {
     }
 
 .nav.navbar-nav {
+  position: absolute;
+  top:0px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -222,9 +226,11 @@ display: block;
 
 
 .header {
-  background: linear-gradient(to bottom right, rgba(14,30,36,.2), rgba(14,30,36,.5)), url("../images/pattern.jpg") bottom;
-  background-size: cover;
-  min-height: 200px;
+  background: url("../images/banner.jpg"), url("../images/pattern.jpg"), url("../images/pattern.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center, left, right;
+  min-height: 300px;
   z-index: -2;
 }
 
@@ -330,6 +336,7 @@ nav {
 }
 
 .navbar {
+  background-color: black;
   /*justify-content: center !important;*/
 }
 
@@ -362,8 +369,8 @@ nav {
 }
 
 .nav-item {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
 }
 
 .navbarsExample04 {
@@ -576,7 +583,7 @@ tr {
 ----------------------------------- */
 
 .interior-header {
-  background: linear-gradient(to bottom right, rgba(14,30,36,.2), rgba(14,30,36,.5)), url("../images/pattern.jpg") bottom;
+  background: linear-gradient(to bottom right, rgba(14,30,36,.2), rgba(14,30,36,.5)), url("../images/banner.jpg") bottom;
   background-size: cover;
   height: 175px;
 /*  z-index: -2;*/
